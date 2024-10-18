@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.mainthing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+.navbar {
+    position: relative;
+    /* Ensure the navbar has a relative position */
+    z-index: 1000;
+    /* Keep it above other elements */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #735ee6;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+
+}
+
+
+.photos {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    float: right;
+    margin-right: 20px;
+}
+
+.s {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.logo {
+    color: white;
+    font-family: Delius Unicase;
+    font-size: 61.43px;
+    font-weight: 700;
+    line-height: 85.81px;
+    text-align: left;
+}
+
+.nav-links {
+    margin-left: 412px;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-family: DM Sans;
+    font-weight: 400;
+    line-height: 47.43px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 36.43px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.search-container button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding-left: 5px;
+    font-size: 16px;
+    color: gray;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 4px;
+}
+
+.menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.ab {
+    width: 972px;
+    height: 507px;
+    margin-left: 63px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #E5D8FF;
+}
+
+.containerr {
+    display: flex;
+    margin-top: 50px;
+    /* Adjust this value as needed */
+    align-items: center;
+}
+
+.container-1 {
+    width: 456px;
+    height: 507px;
+    margin-bottom: 20px;
+}
+
+textarea::placeholder {
+    font-size: 20px;
+    color: gray;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /* Space between buttons */
+    margin-top: 30px;
+    /* Add space between textarea and buttons */
+
+}
+
+.c-1 {
+    width: 337px;
+    height: 120.48px;
+    border-radius: 13px;
+    background-color: #929DFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 20px;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4)
+}
+
+.c-2 {
+    background-color: #734CF2;
+    width: 337px;
+    height: 120.48px;
+    border-radius: 13px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 20px;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4)
+}
+
+.c-3 {
+    background: #D288FF;
+    width: 337px;
+    height: 120.48px;
+    border-radius: 13px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 20px;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4)
+}
+
+.c-4 {
+    background: #000000;
+    width: 337px;
+    height: 120.48px;
+    border-radius: 13px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 20px;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4)
+}
+
+.cc-1, .cc-2 {
+    color: white;
+    font-family: DM Sans;
+    text-align: center;
+
+}
+
+.cc-1 {
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.cc-2 {
+    font-size: 29px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.thirdbox {
+
+
+    width: 1542px;
+    height: 800px;
+    margin-top: 120px;
+    margin-left: 11px;
+
+    border-radius: 21px;
+    opacity: 0px;
+
+
+    background-color: #483EFF;
+
+}
+
+.c-11 {
+
+    width: 397px;
+    height: 133px;
+    margin-top: 99px;
+    margin-left: 80px;
+    gap: 0px;
+    border-radius: 22px;
+
+
+    background-color: #BCE0F6;
+
+}
+
+.c-12 {
+
+    width: 397px;
+    height: 133px;
+    margin-top: 60px;
+    margin-left: 80px;
+    gap: 0px;
+    border-radius: 22px;
+    opacity: 0px;
+
+
+
+
+    background-color: #483EFF;
+    border: 1px solid rgb(255, 251, 251);
+}
+
+.c-13 {
+
+    width: 397px;
+    height: 133px;
+    margin-top: 60px;
+    margin-left: 80px;
+    gap: 0px;
+    border-radius: 22px;
+    opacity: 0px;
+
+    background-color: #483EFF;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+.cc-11 {
+    color: black;
+    font-family: DM Sans;
+    padding: 55px;
+
+    margin-left: 45px;
+    font-size: 29px;
+    font-weight: 700;
+
+
+}
+
+
+.cc-22 {
+    color: white;
+    font-family: DM Sans;
+    padding: 55px;
+    margin-left: 45px;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.bnao {
+    display: flex;
+
+}
+
+.nayabox {
+    background-color: rgb(255, 255, 255);
+    /* Black background */
+    color: rgb(4, 1, 1);
+    height: 656px;
+    /* Adjust as needed */
+    width: 1004px;
+    margin-top: -550px;
+    margin-left: 520px;
+    /* Space between the buttons and black box */
+    border-radius: 40px;
+    /* Optional rounded corners */
+    padding: 20px;
+}
+
+
+
+.info-box {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #1d365d;
+    margin-bottom: 15px;
+}
+
+.info-item {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.label {
+    font-size: 40px;
+    margin-left: 20px;
+
+    color: #1d365d;
+}
+
+.value {
+    color: #000;
+    font-size: 40px;
+
+}
+
+.next-button {
+
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    margin-left: 600px;
+    width: 200px;
+    font-size: 40px;
+
+}
+
+.next-button:hover {
+    background-color: #333;
+}
+
+.help {
+    position: fixed; /* Make the help icon sticky */
+    bottom: 20px; /* Distance from the bottom when scrolling */
+    right: 300px; /* Distance from the right */
+    z-index: 1000; /* Ensure it stays above other elements */
+    
+}
